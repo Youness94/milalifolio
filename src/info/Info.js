@@ -1,9 +1,9 @@
 import self from "../img/self.png"
 import ladies from "../img/ladies.png"
 import alaiqan from "../img/alaiqan.png"
-import mock3 from "../img/mock3.png"
+import amazone from "../img/amazone.png"
 import vegefoods from "../img/vegefoods.png"
-import mock5 from "../img/mock5.png"
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -135,13 +135,13 @@ export const info = {
             title: "Amazone clone",
             live: "",
             source: "https://github.com/Youness94/amazone-clone" ,
-            image: mock3
+            image: amazone
         },
-        {
-            title: "Project 5",
-            live: "h",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+        // {
+        //     title: "Project 5",
+        //     live: "h",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock5
+        // }
     ]
 }
