@@ -6,10 +6,20 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
+import {Helmet} from "react-helmet"
 
 export default function Home() {
 
    return (
+      <>
+      <Helmet>
+            <title>Home</title>
+            <meta
+                name="description"
+                content="Home page"
+            />
+        </Helmet>
+     
       <Box component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'}
            justifyContent={'center'} minHeight={'calc(100vh - 175px)'}>
          <Box className={classNames(Style.avatar, Style.shadowed)} alt={'image of developer'} style={{background: info.gradient}} component={'img'} src={me} width={{xs: '35vh', md: '40vh'}}
@@ -31,5 +41,6 @@ export default function Home() {
             </Box>
          </Box>
       </Box>
+      </>
    )
 }

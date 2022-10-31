@@ -3,7 +3,7 @@ import Style from './About.module.scss';
 import Terminal from "./Terminal";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
-
+import {Helmet} from "react-helmet"
 
 export default function About() {
     const firstName = info.firstName.toLowerCase()
@@ -51,10 +51,19 @@ export default function About() {
     }
 
     return (
+        <>
+      <Helmet>
+            <title>About Me</title>
+            <meta
+                name="description"
+                content="About page"
+            />
+        </Helmet>
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>
         </Box>
+        </>
     )
 }
