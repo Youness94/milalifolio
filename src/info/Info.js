@@ -1,8 +1,8 @@
 import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
+import ladies from "../img/ladies.png"
+import alaiqan from "../img/alaiqan.png"
 import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
+import vegefoods from "../img/vegefoods.png"
 import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -37,15 +37,15 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the Morocco'
+            text: 'based in Morocco'
         },
         {
             emoji: "💼",
-            text: ""
+            text: "I works for kitea group"
         },
         {
             emoji: "📧",
-            text: "younessmilali@gmail.com"
+            text: "younesmilali@gmail.com"
         }
     ],
     socials: [
@@ -60,12 +60,12 @@ export const info = {
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/Youness94",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "linkedin.com/in/milali-youness-a32887149",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
@@ -82,58 +82,64 @@ export const info = {
     skills:
         {
             proficientWith: ['Javascript', 'React', 'bootstrap', 'Html5', 'Css3', 'Responsive Design'],
-            exposedTo: ['Nodejs','PHP','Laravel', 'Github', 'Wordpress', 'MongoDB' ]
+            exposedTo: ['Nodejs','PHP','Laravel', 'Express Js',  'Github', 'Wordpress', 'MongoDB' ]
         }
     ,
     services:{},
     hobbies: [
         {
-            label: 'reading',
+            label: 'Reading',
             emoji: '📖'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Fishing',
+            emoji: '🎣'
         },
         {
-            label: 'movies',
+            label: 'Hunting',
+            emoji: '🏹'
+        },
+        {
+            label: 'Movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
-        }
+            label: 'Learning',
+            emoji: '💡'
+        },
+        
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Ecommerce Shop",
+            live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source:"https://github.com/Youness94/ecommerce-web", // this should be a link to the **repository** of the project, where the code is hosted.
+            image: ladies
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Al-aiqan Shop",
+            live: "https://al-aiqan.com/",
+            source: "https://al-aiqan.com/",
+            image: alaiqan
+        },
+       
+        {
+            title: "VEGEFOODS",
+            live: "",
+            source: "https://github.com/Youness94/ShoppingCart-backend",
+            image: vegefoods
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Amazone clone",
+            live: "",
+            source: "https://github.com/Youness94/amazone-clone" ,
             image: mock3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
             title: "Project 5",
-            live: "https://paytonpierce.dev",
+            live: "h",
             source: "https://github.com/paytonjewell",
             image: mock5
         }
